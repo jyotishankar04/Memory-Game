@@ -93,9 +93,9 @@ let checkMatch = (elId, el) => {
   } else if (clickedArr.length === 2) {
     console.log("Not a Match");
 
-    setTimeout(() => {
-      resetFun(elId);
-    }, 1000);
+    // setTimeout(() => {
+    //   resetFun(elId);
+    // }, 1000);
   }
 };
 
